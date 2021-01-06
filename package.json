@@ -1,0 +1,52 @@
+{
+  "name": "ootmarsum",
+  "private": true,
+  "description": "vakantiehuis Ootmarsum",
+  "version": "1.0.0",
+  "author": "Jan Paul Stegeman <janpaul@hey.com>",
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^3.13.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.30.0",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-manifest": "^2.10.0",
+    "gatsby-plugin-offline": "^3.8.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sharp": "^2.12.0",
+    "gatsby-plugin-styled-components": "^3.8.0",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-sharp": "^2.10.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.8.5",
+    "babel-cli": "^6.26.0",
+    "prettier": "2.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "yarn develop",
+    "serve": "gatsby serve -p ${PORT:-8080}",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:janpaul/ootmarsum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janpaul/ootmarsum/issues"
+  }
+}
