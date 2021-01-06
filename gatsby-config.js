@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Elidon website`,
-    description: `The website of Jan Paul Stegeman`,
+    title: `Vakantiehuis Ootmarsum`,
+    description: `Vakantiehuis Ootmarsum`,
     author: `@janpaul`,
   },
   plugins: [
@@ -25,14 +25,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/ootmarsum.webp`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // ssr: false
-        // displayName: false,
-        // minify: false
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
